@@ -1,10 +1,3 @@
-/**
-* Template Name: Knight - v2.1.0
-* Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -100,10 +93,10 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
-#header .bx {
+/* #header .bx {
   height: 40px;
   width: 40px;
-}
+} */
 
 @media (max-width: 992px) {
   #header {
@@ -353,7 +346,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-logo {
-  margin-bottom: 30px;
+  /* margin: 30px; */
+  justify-content: center;
+  object-fit: scale-down;
 }
 
 #hero h1 {
@@ -400,8 +395,8 @@ h4 {
 .hero-text {
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  width: 50%;
-  text-align: center;
+  width: auto;
+  text-align: left;
   font-size: 12px;
 }
 
@@ -1763,11 +1758,11 @@ section {
 
 .fa {
   padding: 20px;
-  font-size: 20px;
-  width: auto;
+  font-size: 20ppx;
+  /* width: auto; */
   text-align: center;
   text-decoration: none;
-  /* border-radius: 50%; */
+  border-radius: 50%;
 }
 
 .fa-facebook {
@@ -1783,4 +1778,8 @@ section {
 .fa-youtube {
   background: #bb0000;
   color: white;
+}
+
+.social {
+  text-align: center;
 }
