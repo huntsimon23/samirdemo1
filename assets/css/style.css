@@ -137,12 +137,12 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #151515;
+  /* color: #151515; */
   padding: 15px 25px;
   transition: 0.3s;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  /* font-size: 15px; */
+  /* text-transform: uppercase; */
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -259,10 +259,11 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #151515;
+  /* color: #151515; */
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
+  text-align: left;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
@@ -394,9 +395,9 @@ h4 {
 
 .hero-text {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: black;
   width: auto;
-  text-align: left;
+  text-align: center;
   font-size: 12px;
 }
 
@@ -1757,8 +1758,8 @@ section {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 20ppx;
+  padding: 15px;
+  font-size: 30px;
   /* width: auto; */
   text-align: center;
   text-decoration: none;
@@ -1766,20 +1767,16 @@ section {
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+  /* background: #3B5998; */
+  color: #3B5998;
 }
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+  /* background: #bb0000; */
+  color: #bb0000;
 }
 
 .social {
   text-align: center;
+  padding-top: 20px
 }

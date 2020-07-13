@@ -31,7 +31,27 @@
 </head>
 
 <body>
- <!-- ADD MODAL HERE W THIS TEXT: <p class="hero-text">I understand how difficult it is to ask for help. I also firmly believe that it’s the most critical step in the healing and change process. Allow me to help you develop better mental, emotional, and spiritual health in your life; both in relationships and your workplace.</p> -->
+<!-- Modal -->
+<div class="modal fade" id="dialogue" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Are you ready for change?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <p class="hero-text">I understand how difficult it is to ask for help. I also firmly believe that it’s the most critical step in the healing and change process. Allow me to help you develop better mental, emotional, and spiritual health in your life; both in relationships and your workplace.</p>
+      <p class="hero-text">Se habla español</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#about2"><button type="button" class="btn btn-success" data-toggle="modal" data-target="#dialogue">Acerca de Samir</button></a>
+        <a href="#about"><button type="button" class="btn btn-success" data-toggle="modal" data-target="#dialogue">About Samir</button></a>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -40,7 +60,7 @@
       <h1 data-aos="zoom-in">Samir Vergara</h1>
       <h4>Major Counseling Center</h4>
       <h2 data-aos="fade-up">National and Florida Board Certified Addiction ​Counselor, NCAC, CAC, NCC <br> Christian Counselor, ORDM</h2>
-      <a data-aos="fade-up" href="#about" class="btn-get-started scrollto">Are you ready for change?</a>
+      <a data-aos="fade-up" data-toggle="modal" data-target="#dialogue" class="btn-get-started scrollto">Are you ready for change?</a>
     </div>
   </section><!-- End Hero -->
 
@@ -54,6 +74,8 @@
           <li><a href="#about2">Acerca de Samir</a></li>
           <li><a href="#portfolio">Resources</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.facebook.com/samirvergaraaddictionchristiancounselor" class="fa fa-facebook"></a></li>
+          <li><a href="https://www.youtube.com/channel/UC4SlXNzYXZNYZMR4_Ug4iUQ/" class="fa fa-youtube"></a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -139,7 +161,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>About Samir</h2>
+          <h2>Acerca de Samir</h2>
           <p>Major Counseling Center</p>
         </div>
 
@@ -233,7 +255,7 @@
 
         <div class="row">
 
-          <div class="col-lg-4">
+          <div class="col-lg">
             <div class="info d-flex flex-column justify-content-center" data-aos="fade-right">
               <div class="address">
                 <i class="icofont-google-map"></i>
@@ -244,9 +266,11 @@
               </div>
 
               <div class="email">
-                <i class="icofont-envelope"></i>
+                <a href="mailto:MajorCounselingCenter@gmail.com">
+                  <i class="icofont-envelope"></i>
+                </a>
                 <h4>Email:</h4>
-                <p>MajorCounselingCenter@gmail.com</p>
+                <p class="d-inline-block"><a href="mailto:MajorCounselingCenter@gmail.com">MajorCounselingCenter<br>@gmail.com</a></p>
               </div>
 
               <div class="phone">
@@ -256,8 +280,7 @@
               </div>
 
               <div class="social">
-                <a href="https://www.facebook.com/samirvergaraaddictionchristiancounselor" class="fa fa-facebook">_</a>
-                <a href="https://www.linkedin.com/in/samir-vergara-ncac-ncc-om-counselor-04a13046/" class="fa fa-linkedin"></a>
+                <a href="https://www.facebook.com/samirvergaraaddictionchristiancounselor" class="fa fa-facebook"></a>
                 <a href="https://www.youtube.com/channel/UC4SlXNzYXZNYZMR4_Ug4iUQ/" class="fa fa-youtube"></a>
               </div>
 
@@ -265,11 +288,11 @@
 
           </div>
 
-          <div class="col-lg-5 mt-5 mt-lg-0">
-            <div class="mapouter d-flex flex-column justify-content-center sv"><div class="gmap_canvas"><iframe width="450" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=6996%20Piazza%20Grande%20Ave%2C%20Suite%20310%20Orlando%2C%20Fl%2032835%20Orlando%2C%20Fl%2032835&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div><style>.mapouter{position:relative;text-align:center;height:450px;width:375px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;widows:375px;}</style></div>
+          <div class="col-lg mt-5 mt-lg-0">
+            <div class="mapouter d-flex flex-column justify-content-center sv"><div class="gmap_canvas justify-content-center"><iframe width="325" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=6996%20Piazza%20Grande%20Ave%2C%20Suite%20310%20Orlando%2C%20Fl%2032835%20Orlando%2C%20Fl%2032835&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div><style>.mapouter{position:relative;text-align:center;height:450px;width:375px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;widows:375px;}</style></div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg">
             <div id="carouselExampleIndicators3" class="carousel slide d-flex flex-column justify-content-center" data-ride="carousel" data-interval="3000">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
