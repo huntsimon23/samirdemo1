@@ -1,2 +1,1 @@
-# samirdemo1
-Demo Website for Samir Vergara
+Website for Samir Vergara
