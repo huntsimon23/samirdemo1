@@ -1,10 +1,18 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
-    - /bin/cp index.html $DEPLOYPATH
+    - export DEPLOYPATH=/home/samiqlst/public_html/
+    - /bin/cp *.html $DEPLOYPATH
     - /bin/cp -R assets/css $DEPLOYPATH
     - /bin/cp -R assets/img $DEPLOYPATH
     - /bin/cp -R assets/img/sv $DEPLOYPATH
     - /bin/cp -R assets/js $DEPLOYPATH
     - /bin/cp -R assets/vendor $DEPLOYPATH
+
+#     ---
+# deployment:
+#   tasks:
+#     - export DEPLOYPATH=/home/firseokq/public_html/
+#     - /bin/cp -R assets $DEPLOYPATH
+#     - /bin/cp *.html $DEPLOYPATH
+#     - /bin/cp *.css $DEPLOYPATH
